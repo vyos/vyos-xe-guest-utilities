@@ -1,0 +1,17 @@
+Source: vyos-xe-guest-utilities
+Section: admin
+Priority: optional
+Maintainer: hagbard <vyosdev@derith.de>
+Homepage: https://github.com/xenserver 
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9), dh-systemd, gawk, golang
+Vcs-Git: https://github.com/xenserver/xe-guest-utilities
+
+Package: vyos-xe-guest-utilities
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: daemon for monitoring Xen Virtual machines
+ xe-daemon for monitoring Virtual Machines on a Xen Hypervisor.
+ .
+ Writes distribution version information, disk and networking
+ statistics to XenStore.

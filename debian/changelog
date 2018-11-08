@@ -1,0 +1,5 @@
+vyos-xe-guest-utilities (1.0.0-1) unstable; urgency=medium
+  
+  * initial release
+
+ -- hagbard <vyosdev@derith.de>  Thu, 08 Nov 2018 14:33:06 -0800

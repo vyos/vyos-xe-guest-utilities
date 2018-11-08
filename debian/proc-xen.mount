@@ -1,0 +1,13 @@
+[Unit]
+Description = Xen ProcFS
+Before=xe-daemon.service
+DefaultDependencies=no
+ConditionVirtualization=xen
+
+[Mount]
+What = none
+Where = /proc/xen
+Type = xenfs
+
+[Install]
+WantedBy=local-fs.target

@@ -1,0 +1,4 @@
+debian/proc-xen.mount                      lib/systemd/system
+debian/z10_xen-vcpu-hotplug.rules          lib/udev/rules.d
+build/stage/usr/sbin/xe-linux-distribution usr/sbin
+build/stage/usr/sbin/xe-daemon             usr/sbin
