@@ -1,3 +1,10 @@
+vyos-xe-guest-utilities (1.0.0-3) unstable; urgency=medium
+
+  * updates from upstream merged
+  * systemd unit file added to package
+
+ -- hagbard <vyosdev@derith.de>  Fri, 19 Jul 2019 15:57:12 -0700 
+
 vyos-xe-guest-utilities (1.0.0-2) unstable; urgency=medium
 
   * updates from upstream merged
