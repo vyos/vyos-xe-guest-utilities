@@ -1,4 +1,5 @@
 #!/usr/bin/make -f
+#export DH_VERBOSE=1
 
 %:
 	dh $@ --with systemd
@@ -7,4 +8,4 @@ override_dh_installinit:
 	dh_installinit --no-restart-on-upgrade --name xe-guest-utilities
 
 override_dh_systemd_enable:
-	dh_systemd_enable --name xe-guest-utilities xe-guest-utilities.service 
+	dh_systemd_enable --name xe-guest-utilities.service
