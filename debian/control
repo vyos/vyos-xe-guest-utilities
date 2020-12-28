@@ -9,7 +9,6 @@ Vcs-Git: https://github.com/xenserver/xe-guest-utilities
 
 Package: vyos-xe-guest-utilities
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: daemon for monitoring Xen Virtual machines
  xe-daemon for monitoring Virtual Machines on a Xen Hypervisor.
  .
