@@ -1,8 +1,8 @@
 Source: vyos-xe-guest-utilities
 Section: admin
 Priority: optional
-Maintainer: hagbard <vyosdev@derith.de>
-Homepage: https://github.com/xenserver 
+Maintainer: Maintainer: VyOS Package Maintainers <maintainers@vyos.net>
+Homepage: https://github.com/xenserver
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), dh-systemd, gawk, golang
 Vcs-Git: https://github.com/xenserver/xe-guest-utilities
