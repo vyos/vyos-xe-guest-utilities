@@ -1,6 +1,10 @@
-vyos-xe-guest-utilities (7.13.0+vyos2+current1) UNRELEASED; urgency=medium
+vyos-xe-guest-utilities (7.13.0+vyos1.3) UNRELEASED; urgency=medium
 
+  [ Christian Poessinger ]
   * Update to xe-guest-utilities 7.13.0
+
+  [ Daniil Baturin ]
+  * New LTS branch.
 
  -- Christian Poessinger <christian@poessinger.com>  Mon, 28 Dec 2020 22:27:28 +0100
 
