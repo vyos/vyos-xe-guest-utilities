@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Maintainer: VyOS Package Maintainers <maintainers@vyos.net>
 Homepage: https://github.com/xenserver
 Standards-Version: 4.1.4
-Build-Depends: debhelper (>= 9), dh-systemd, gawk, golang
+Build-Depends: debhelper (>= 12), gawk, golang
 Vcs-Git: https://github.com/xenserver/xe-guest-utilities
 
 Package: vyos-xe-guest-utilities
