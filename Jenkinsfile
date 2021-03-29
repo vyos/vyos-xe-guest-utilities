@@ -20,4 +20,5 @@
 @Library('vyos-build@current')_
 
 // Start package build using library function from https://github.com/vyos/vyos-build
-buildPackage()
+def buildCmd = "dpkg-buildpackage -b -us -uc -tc && rm -f mk/Makefile.deb"
+buildPackage(null, null, buildCmd, true)
