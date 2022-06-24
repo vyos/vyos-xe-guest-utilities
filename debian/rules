@@ -1,6 +1,9 @@
 #!/usr/bin/make -f
 #export DH_VERBOSE=1
 
+# Disable module-aware mode, required for compatibility with Go 1.16+
+export GO111MODULE=off
+
 %:
 	dh $@ --with systemd
 
